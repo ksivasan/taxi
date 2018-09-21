@@ -85,7 +85,7 @@ def callPutdown(event):
        board.coords(it, i*Width+Width*3/10, j*Width+Width*3/10,
 		i*Width+Width*7/10, j*Width+Width*7/10)
        if passIn == passTo:
-         print "Success!  Total steps:", totalsteps
+         print ("Success!  Total steps: {}".format(totalsteps))
          master.quit()
 
 def bump(Taxi,dx):
